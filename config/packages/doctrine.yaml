@@ -16,3 +16,4 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Entity'
                 prefix: 'App\Entity'
                 alias: App
+        class_metadata_factory_name: App\Infrastructure\Doctrine\ClassMetadataFactory
